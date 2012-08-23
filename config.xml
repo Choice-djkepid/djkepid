@@ -4,10 +4,10 @@
     id        = "com.phonegap.djkepid"
     version   = "1.0.0">
 
-<name>PhoneGap Build Application</name>
+<name>DJKEPID Quality APP</name>
 
 <description>
-A simple PhoneGap Build application.
+Only DJKEPID application.
 </description>
 
 <author href="https://djkepid.iptime.org:9090" email="mansaokra@hanmail.net">
