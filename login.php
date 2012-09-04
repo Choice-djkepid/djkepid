@@ -42,8 +42,8 @@ if (isset($_GET['accesscheck'])) {
   $_SESSION['PrevUrl'] = $_GET['accesscheck'];
 }
 
-if (isset($_POST['email'])) {
-  $loginUsername=$_POST['email'];
+if (isset($_POST['userID'])) {
+  $loginUsername=$_POST['userID'];
   $password=$_POST['pwd'];
   $MM_fldUserAuthorization = "";
   $MM_redirectLoginSuccess = "membershome.php";
@@ -51,8 +51,8 @@ if (isset($_POST['email'])) {
   $MM_redirecttoReferrer = false;
   mysql_select_db($database_conn_login, $conn_login);
   
-  $LoginRS__query=sprintf("SELECT username, pwd FROM login WHERE username=%s AND pwd=%s",
-    GetSQLValueString($loginUsername, "text"), GetSQLValueString($password, "text")); 
+  $LoginRS__query=sprintf("SELECT userID, pwd FROM login WHERE userID=%s AND pwd=%s",
+    GetSQLValueString($loginUsername, "int"), GetSQLValueString($password, "text")); 
    
   $LoginRS = mysql_query($LoginRS__query, $conn_login) or die(mysql_error());
   $loginFoundUser = mysql_num_rows($LoginRS);
@@ -98,8 +98,8 @@ if (isset($_POST['email'])) {
   <div data-role="content">
     <form ACTION="<?php echo $loginFormAction; ?>" name="form1" method="POST">
 <p><span id="sprytextfield1">
-  <label for="email">Email</label>
-  <input type="text" name="email" id="email">
+  <label for="userID">user</label>
+  <input type="text" name="userID" id="userID">
   <span class="textfieldRequiredMsg">값을 반드시 입력해야 합니다.</span></span></p>
 <p><span id="sprytextfield2">
   <label for="pwd">Password</label>

@@ -22,6 +22,8 @@
 			<li><a href="#page2">회사공지사항(예정)</a></li>
             <li><a href="#page3">사내공지사항(예정)</a></li>
             <li><a href="http://datamall.koscom.co.kr/cyberir/corpMainInner/ts/130660.html" title="stock" target="_top">회사주식정보</a></li>
+            <li><a href="/stock.html" title="stock" target="_top">회사주식정보2</a></li>
+
 			<li><a href="#page4">절차서</a></li>
 	  </ul>
   </div>
