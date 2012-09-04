@@ -5,23 +5,6 @@
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-with, height=device-height" />
 <title>jQuery Mobile Web App</title>
 <link href="css/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
-<style type="text/css">
-h1 {
-	font-size: 18px;
-}
-h2 {
-	font-size: 24px;
-}
-h3 {
-	font-size: 36px;
-}
-h4 {
-	font-size: x-large;
-}
-h5 {
-	font-size: xx-large;
-}
-</style>
 <script src="css/jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="css/jquery.mobile-1.0.min.js" type="text/javascript"></script>
 <!-- <link href="css/main.css" rel="stylesheet" type="text/css"> -->
@@ -32,23 +15,12 @@ h5 {
 
 <div data-role="page" id="page">
 	<div data-role="header">
-	  <h3><img src="img/kepid-logo.png" width="32" height="24" alt="" longdesc="http://www.kepid.co.kr">DJ KEPID</h3>
+	  <h1><img src="img/kepid-logo.png" width="32" height="24" alt="" longdesc="http://www.kepid.co.kr">DJ KEPID</h1>
   </div>
-  <div data-role="content">
-    <form name="form1" method="post" action="/login.php">
-      <p>
-        <input type="submit" name="Login" id="Login" value="로그인">
-      </p>
-    </form>
-  </div>
+  <div data-role="content">로그인에 실패하였습니다.</div>
   </p>
   
   <div data-role="footer">
-    <h4>Ver. 120904 1600</h4>
-  </div>
-</div>
-
-<div data-role="page" id="page2">
-<div class='mainct011' id='Tabid1'></div>
+    <h4>Ver. 120828 1711</h4></div></div>
 </body>
 </html>
