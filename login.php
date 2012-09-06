@@ -82,7 +82,6 @@ if (isset($_POST['userID'])) {
 <title>jQuery Mobile Web App</title>
 <link href="css/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
 <link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
-<input type=”number” name=”txtNumber”/>
 <script src="css/jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="css/jquery.mobile-1.0.min.js" type="text/javascript"></script>
 <!-- <link href="css/main.css" rel="stylesheet" type="text/css"> -->
@@ -99,10 +98,10 @@ if (isset($_POST['userID'])) {
   <div data-role="content">
     <form ACTION="<?php echo $loginFormAction; ?>" name="form1" method="POST">
 <p><span id="sprytextfield1">사번(관리번호)
-    <input type="text" name="userID" id="userID">
+    <input type="number" name="userID" id="userID">
   <span class="textfieldRequiredMsg">값을 반드시 입력해야 합니다.</span></span></p>
 <p><span id="sprytextfield2">패스워드
-    <input type="password" name="pwd" id="pwd">
+    <input type="number" name="pwd" id="pwd">
   <span class="textfieldRequiredMsg">값을 반드시 입력해야 합니다.</span></span></p>
 <p>
   <input type="submit" name="sign" id="sign" value="로그인">
