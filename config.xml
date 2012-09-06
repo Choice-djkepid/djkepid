@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.phonegap.djkepid"
-    version   = "1.0.0">
+    version   = "0.0.4">
 
 <name>DJKEPID Quality APP</name>
 
@@ -10,7 +10,7 @@
 Only DJKEPID application.
 </description>
 
-<author href="https://djkepid.iptime.org:9090" email="mansaokra@hanmail.net">
+<author href="https://djkepid.iptime.org:7070" email="mansaokra@hanmail.net">
 Choice
 </author>
 	<icon src="kepid.png" gap:role="default" />
