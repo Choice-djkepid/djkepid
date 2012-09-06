@@ -82,6 +82,7 @@ if (isset($_POST['userID'])) {
 <title>jQuery Mobile Web App</title>
 <link href="css/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
 <link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+<input type=”number” name=”txtNumber”/>
 <script src="css/jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="css/jquery.mobile-1.0.min.js" type="text/javascript"></script>
 <!-- <link href="css/main.css" rel="stylesheet" type="text/css"> -->
