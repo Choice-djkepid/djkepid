@@ -82,11 +82,13 @@ if (isset($_POST['userID'])) {
 <title>jQuery Mobile Web App</title>
 <link href="css/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
 <link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryValidationCheckbox.css" rel="stylesheet" type="text/css">
 <script src="css/jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="css/jquery.mobile-1.0.min.js" type="text/javascript"></script>
 <!-- <link href="css/main.css" rel="stylesheet" type="text/css"> -->
 <script src="css/flash.js" type="text/javascript"></script>
 <script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationCheckbox.js" type="text/javascript"></script>
 <!-- <script language="JavaScript" type="text/JavaScript"> -->
 </head> 
 <body> 
@@ -101,8 +103,10 @@ if (isset($_POST['userID'])) {
     <input type="number" name="userID" id="userID">
   <span class="textfieldRequiredMsg">값을 반드시 입력해야 합니다.</span></span></p>
 <p><span id="sprytextfield2">패스워드
-    <input type="number" name="pwd" id="pwd">
-  <span class="textfieldRequiredMsg">값을 반드시 입력해야 합니다.</span></span></p>
+    <input type="password" name="pwd" id="pwd">
+  <span class="textfieldRequiredMsg">값을 반드시 입력해야 합니다.</span></span><span id="sprycheckbox1">
+  <label for="ID input"></label>
+  <span class="checkboxRequiredMsg">원하는 영역을 선택하십시</span></span></p>
 <p>
   <input type="submit" name="sign" id="sign" value="로그인">
 </p>
@@ -111,10 +115,11 @@ if (isset($_POST['userID'])) {
   </p>
   
   <div data-role="footer">
-    <h4>Ver. 1200906 1346</h4></div></div>
+<h4>Ver. 1200906 1516</h4></div></div>
 <script type="text/javascript">
 var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
 var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1");
 </script>
 </body>
 </html>
