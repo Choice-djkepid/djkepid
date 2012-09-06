@@ -97,23 +97,21 @@ if (isset($_POST['userID'])) {
   </div>
   <div data-role="content">
     <form ACTION="<?php echo $loginFormAction; ?>" name="form1" method="POST">
-<p><span id="sprytextfield1">
-  <label for="userID">user</label>
-  <input type="text" name="userID" id="userID">
+<p><span id="sprytextfield1">사번(관리번호)
+    <input type="text" name="userID" id="userID">
   <span class="textfieldRequiredMsg">값을 반드시 입력해야 합니다.</span></span></p>
-<p><span id="sprytextfield2">
-  <label for="pwd">Password</label>
-  <input type="text" name="pwd" id="pwd">
+<p><span id="sprytextfield2">패스워드
+    <input type="password" name="pwd" id="pwd">
   <span class="textfieldRequiredMsg">값을 반드시 입력해야 합니다.</span></span></p>
 <p>
-  <input type="submit" name="sign" id="sign" value="Sign">
+  <input type="submit" name="sign" id="sign" value="로그인">
 </p>
     </form>
   </div>
   </p>
   
   <div data-role="footer">
-    <h4>Ver. 120828 1711</h4></div></div>
+    <h4>Ver. 1200906 1346</h4></div></div>
 <script type="text/javascript">
 var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
 var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
