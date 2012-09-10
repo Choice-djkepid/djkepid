@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="phonegap-1.0.0.js"></script>
+<script type="text/javascript" charset="utf-8" src="main.js"></script>
+<script type="text/javascript" charset="utf-8" src="pdfviewer.js"></script>
+<script type="text/javascript" charset="utf-8" src="downloader.js"></script>
+
+</head>
+<body>
+<h1>Hello World</h1>
+<a href="#" onclick="window.plugins.downloader.downloadFile('http://www.cataniaperte.com/sport/articoli/Kitesurf.pdf','/sdcard/download/kite/', 'Kitesurf.pdf', true, downloadOkCallbak, downloadErCallbak);">Download pdf</a><br>
+<a href="#" onclick="window.plugins.pdfViewer.showPdf('/sdcard/download/kite/Kitesurf.pdf');">open</a>
+</body>
+</html>
